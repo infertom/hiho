@@ -1,3 +1,4 @@
+/*
 #include<cstdio>
 #include<iostream>
 #include<cmath>
@@ -59,13 +60,13 @@ int main()
 				j++;
 			}
 		}
-/*
+/ *
 		for (int i = 0; i < m; i++){
 			for(int j = 0; j <= n; j++){
 				printf("%f ", a[i][j]);
 			}
 			cout<<endl;
-		}*/
+		}* /
 
 		for (int i = m - 1; i >= 0; i--){
 			if ( !(fabs(a[i][n-1]) < EX) ) break;
@@ -96,4 +97,4 @@ int main()
 
 
 	return 0;
-}
+}*/
