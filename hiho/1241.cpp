@@ -1,3 +1,4 @@
+/*
 #include <cstdio>
 #include <cstring>
 #include <cstring>
@@ -110,4 +111,4 @@ int main()
 	printf("%d\n", min(getAns2(), getAns5()));
 
 	return 0;
-}
+}*/
