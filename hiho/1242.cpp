@@ -1,3 +1,4 @@
+/*
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
@@ -123,4 +124,4 @@ int main()
 	else printf("%d\n", ans);
 
 	return 0;
-}
+}*/
