@@ -76,7 +76,6 @@
   <ItemGroup>
     <ClCompile Include="1033.cpp" />
     <ClCompile Include="1241.cpp" />
-    <ClCompile Include="1242.cpp" />
     <ClCompile Include="56_高斯消元.cpp" />
   </ItemGroup>
   <ItemGroup>
