@@ -1,15 +1,17 @@
-﻿生成启动时间为 2015/10/18 23:10:41。
+﻿生成启动时间为 2015/10/26 19:57:11。
      1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\hiho\hiho\hiho.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\hiho.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1120.cpp
-         1120.cpp
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1120.cpp(84): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1148.cpp
+         1148.cpp
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1148.cpp(30): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(249) : 参见“freopen”的声明
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1148.cpp(33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1120.cpp(88): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1148.cpp(41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1120.cpp(91): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1148.cpp(51): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
        ManifestResourceCompile:
          所有输出均为最新。
@@ -20,6 +22,7 @@
          Debug\1082.obj
          Debug\1094.obj
          Debug\1120.obj
+         Debug\1148.obj
          Debug\1241.obj
          Debug\1242.obj
          "Debug\56_高斯消元.obj"
@@ -36,4 +39,4 @@
 
 生成成功。
 
-已用时间 00:00:02.39
+已用时间 00:00:01.67

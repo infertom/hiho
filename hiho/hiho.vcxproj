@@ -79,6 +79,7 @@
     <ClCompile Include="1082.cpp" />
     <ClCompile Include="1094.cpp" />
     <ClCompile Include="1120.cpp" />
+    <ClCompile Include="1148.cpp" />
     <ClCompile Include="1241.cpp" />
     <ClCompile Include="1242.cpp" />
     <ClCompile Include="56_高斯消元.cpp" />
