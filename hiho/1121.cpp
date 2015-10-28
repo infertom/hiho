@@ -9,7 +9,17 @@ typedef long long ll;
 
 const int MAXN = 40000 + 100;
 
-int headE[MAXN*2+10], nextE[MAXN*2+10], toV[MAXN*2+10];
+/ ************************************************************************ /
+/ *
+参数：有向边a->b（若存无向边即存双向）
+数组：
+headE[i]以i为起点的最后一条边的编号
+nextE[i]第i条边的上一条边的编号
+toP[i]第i条边所指向的点的编号
+* /
+/ ************************************************************************ /
+const int MAXE = 40000 + 100;//最大边数目
+int headE[MAXE*2], nextE[MAXE*2], toV[MAXE*2];
 int cn;
 void addEdge(int a, int b)
 {
