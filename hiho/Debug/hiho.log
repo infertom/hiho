@@ -1,15 +1,17 @@
-﻿生成启动时间为 2015/11/3 18:39:13。
+﻿生成启动时间为 2015/11/3 20:36:32。
      1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\hiho\hiho\hiho.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\hiho.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1089.cpp
-         1089.cpp
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1089.cpp(14): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1040.cpp
+         1040.cpp
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1040.cpp(64): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(249) : 参见“freopen”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1089.cpp(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1040.cpp(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1089.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1040.cpp(76): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\hiho\hiho\1040.cpp(78): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
        ManifestResourceCompile:
          所有输出均为最新。
@@ -17,6 +19,7 @@
          D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\hiho\Debug\hiho.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hiho.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\hiho\Debug\hiho.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\hiho\Debug\hiho.lib" /MACHINE:X86 Debug\hiho.exe.embed.manifest.res
          Debug\1033.obj
          Debug\1039.obj
+         Debug\1040.obj
          Debug\1081.obj
          Debug\1082.obj
          Debug\1089.obj
@@ -46,4 +49,4 @@
 
 生成成功。
 
-已用时间 00:00:02.85
+已用时间 00:00:03.07
