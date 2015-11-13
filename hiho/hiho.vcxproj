@@ -83,10 +83,12 @@
     <ClCompile Include="1089.cpp" />
     <ClCompile Include="1094.cpp" />
     <ClCompile Include="1105.cpp" />
+    <ClCompile Include="1110.cpp" />
     <ClCompile Include="1120.cpp" />
     <ClCompile Include="1121.cpp" />
     <ClCompile Include="1122.cpp" />
     <ClCompile Include="1127.cpp" />
+    <ClCompile Include="1135.cpp" />
     <ClCompile Include="1148.cpp" />
     <ClCompile Include="1158.cpp" />
     <ClCompile Include="1158_2.cpp" />
