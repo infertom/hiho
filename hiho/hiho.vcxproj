@@ -90,6 +90,7 @@
     <ClCompile Include="1127.cpp" />
     <ClCompile Include="1135.cpp" />
     <ClCompile Include="1148.cpp" />
+    <ClCompile Include="1152.cpp" />
     <ClCompile Include="1158.cpp" />
     <ClCompile Include="1158_2.cpp" />
     <ClCompile Include="1223.cpp" />
