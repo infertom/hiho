@@ -84,6 +84,9 @@
     <ClCompile Include="1135.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1234.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="in.txt" />
